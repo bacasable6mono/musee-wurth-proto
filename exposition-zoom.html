@@ -1,0 +1,272 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>ZOOM — Musée Würth</title>
+<meta name="robots" content="noindex, nofollow">
+<meta name="description" content="ZOOM. Visages et œuvres de la Collection Würth, du 25 janvier 2026 au 10 janvier 2027 au Musée Würth d’Erstein. Entrée libre.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="page-expo">
+
+<p class="proto-flag">Prototype de conception — 6mono pour le Musée Würth France Erstein, octobre 2026. Contenus issus du site actuel.</p>
+
+<!-- ============ EN-TÊTE ============ -->
+<div class="util">
+  <div class="wrap">
+    <ul>
+      <li><a href="index.html#publics">Espace enseignants</a></li>
+      <li><a href="index.html#footer">Espace presse</a></li>
+      <li><a href="index.html#newsletter">Newsletter</a></li>
+      <li><a href="index.html#footer">Recrutement</a></li>
+      <li><a href="index.html#footer">Nous écrire</a></li>
+    </ul>
+    <div class="langs" role="group" aria-label="Langue du site">
+      <button type="button" aria-pressed="true" lang="fr">FR</button>
+      <button type="button" aria-pressed="false" lang="en" data-lang="English version">EN</button>
+      <button type="button" aria-pressed="false" lang="de" data-lang="Deutsche Version">DE</button>
+    </div>
+  </div>
+</div>
+
+<header class="hdr" id="top">
+  <div class="wrap">
+    <a class="brand" href="index.html" aria-label="Musée Würth France Erstein, accueil">
+      <span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span>
+      <span class="brand-txt"><b>MUSÉE WÜRTH</b><span>France · Erstein</span></span>
+    </a>
+    <nav class="nav" aria-label="Navigation principale">
+      <a href="index.html#expositions" class="on" aria-current="true">Expositions</a>
+      <a href="index.html#programmation">Programmation</a>
+      <a href="index.html#visiter">Visiter</a>
+      <a href="index.html#publics">Groupes et scolaires</a>
+      <a href="index.html#collection">Le musée</a>
+    </nav>
+    <div class="hdr-tools">
+      <button class="icon-btn" type="button" id="openSearch" aria-label="Rechercher">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m15.5 15.5 5 5"/></svg>
+      </button>
+      <a class="btn btn--red" href="index.html#programmation"><span>Billetterie</span></a>
+      <button class="icon-btn burger" type="button" id="openMenu" aria-label="Ouvrir le menu" aria-expanded="false">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 7h18M3 12h18M3 17h18"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<div class="drawer" id="drawer" hidden>
+  <div class="drawer-top">
+    <span class="brand-txt"><b>MUSÉE WÜRTH</b><span>France · Erstein</span></span>
+    <button class="icon-btn" type="button" id="closeMenu" aria-label="Fermer le menu"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M5 5l14 14M19 5 5 19"/></svg></button>
+  </div>
+  <nav aria-label="Navigation mobile">
+    <a href="index.html#expositions">Expositions</a>
+    <a href="index.html#programmation">Programmation</a>
+    <a href="index.html#visiter">Visiter</a>
+    <a href="index.html#publics">Groupes et scolaires</a>
+    <a href="index.html#collection">Le musée</a>
+    <a href="index.html#publics">Location d'espaces</a>
+  </nav>
+  <a class="btn btn--red" href="index.html#programmation">Billetterie</a>
+</div>
+
+<div class="search" id="search" hidden role="dialog" aria-modal="true" aria-label="Recherche">
+  <button class="icon-btn close" type="button" id="closeSearch" aria-label="Fermer la recherche"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M5 5l14 14M19 5 5 19"/></svg></button>
+  <form id="searchForm">
+    <label for="q">Rechercher sur le site</label>
+    <input id="q" type="search" placeholder="Une exposition, un artiste, un concert…" autocomplete="off">
+    <div class="sugg" aria-label="Recherches fréquentes">
+      <a href="index.html#visiter">Horaires</a><a href="index.html#expositions">ZOOM</a><a href="index.html#programmation">Concerts</a><a href="index.html#publics">Anniversaire au musée</a><a href="index.html#visiter">Venir en train</a><a href="index.html#publics">Visites scolaires</a>
+    </div>
+  </form>
+</div>
+
+<main>
+<!-- ============ EN-TÊTE DE L'EXPOSITION ============ -->
+<section class="xhero inv" aria-labelledby="xtitle">
+  <div class="ph dark" data-src="assets/hero-zoom.jpg" data-label="ZOOM — visuel de l'affiche, 2400 × 1400 px"></div>
+  <div class="wrap xhero-in">
+    <nav class="crumbs" aria-label="Fil d'Ariane">
+      <ol><li><a href="index.html">Accueil</a></li><li><a href="index.html#expositions">Expositions</a></li><li><span aria-current="page">ZOOM</span></li></ol>
+    </nav>
+    <div class="xhero-main">
+      <p class="eyebrow">Exposition temporaire · en cours</p>
+      <h1 id="xtitle">ZOOM<em>.</em></h1>
+      <p class="sub">Visages et œuvres de la Collection Würth</p>
+      <div class="ctas" style="display:flex;flex-wrap:wrap;gap:12px">
+        <a class="btn btn--red" href="#visites">Réserver une visite guidée <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M2 8h11M9 4l4 4-4 4"/></svg></a>
+        <a class="btn btn--ghost" href="#infos">Préparer ma visite</a>
+      </div>
+    </div>
+    <div class="xhero-cartel">
+      <div><small>Dates</small><strong class="num">25 janv. 2026 – 10 janv. 2027</strong></div>
+      <div><small>Entrée</small><strong>Libre et gratuite</strong></div>
+      <div><small>Œuvres</small><strong>Plus de 100 photographies</strong></div>
+      <div><small>Visites guidées</small><strong>Le dimanche à 14&nbsp;h&nbsp;30</strong></div>
+    </div>
+  </div>
+  <aside class="note"><b><i>1</i>Le cartel en ouverture</b><p>La page reprend la grammaire de l'accueil : grand titre en Jost Light, point rouge, puis un cartel en quatre cases qui répond aux questions pratiques avant toute lecture.</p><span class="el">Elementor Pro : gabarit unique « Single » pour le type de contenu Expositions ; les quatre cases sont des champs ACF (dates, entrée, nombre d'œuvres, visites).</span></aside>
+</section>
+
+<!-- ============ PRÉSENTATION + CARTEL LATÉRAL ============ -->
+<section class="sec" id="presentation">
+  <div class="wrap split">
+    <div class="prose">
+      <div class="run" data-run data-start="2026-01-25" data-end="2027-01-10" aria-label="Durée de l'exposition">
+        <div class="run-head"><span class="eyebrow">Calendrier</span><span class="run-left">Du 25 janvier 2026 au 10 janvier 2027</span></div>
+        <div class="run-track"><div class="run-fill"></div><div class="run-now" aria-hidden="true"></div></div>
+        <div class="run-ends"><span>25 janv. 2026</span><span>10 janv. 2027</span></div>
+      </div>
+      <p class="intro" style="margin-top:28px">Plus d'une centaine de photographies montrent les grands artistes du XX<sup>e</sup>&nbsp;siècle, européens et américains, tels que leurs contemporains les ont vus. Chaque portrait dialogue avec une œuvre de l'artiste, issue de la Collection Würth.</p>
+      <p>Pablo Picasso, Alexander Calder, Andy Warhol ou David Hockney apparaissent ici tour à tour comme modèles et comme créateurs. Derrière l'objectif, de grands noms de la photographie, parmi lesquels Henri Cartier-Bresson, Sabine Weiss, Lee Miller et Arnold Newman, les saisissent parfois au cœur de leur atelier.</p>
+      <p>L'exposition rappelle aussi comment la photographie, art encore jeune au XX<sup>e</sup>&nbsp;siècle, s'est imposée comme un art à part entière, de la prise de vue jusqu'au développement du film.</p>
+      <p class="fine">Texte rédigé pour le prototype d'après la présentation du site actuel ; à valider par le musée.</p>
+    </div>
+    <aside class="cartel-card" aria-label="L'essentiel">
+      <h2>L'essentiel</h2>
+      <dl class="facts">
+        <dt>Dates</dt><dd>25/01/2026 – 10/01/2027</dd>
+        <dt>Entrée</dt><dd>Gratuite</dd>
+        <dt>Mardi – samedi</dt><dd>10&nbsp;h – 17&nbsp;h</dd>
+        <dt>Dimanche</dt><dd>10&nbsp;h – 18&nbsp;h</dd>
+        <dt>Lundi</dt><dd>Fermé</dd>
+        <dt>Fonds</dt><dd>Collection Würth</dd>
+      </dl>
+      <a class="btn btn--red btn--block" href="#visites">Réserver une visite guidée</a>
+      <a class="link" href="#infos" style="align-self:flex-start">Horaires, accès, services</a>
+    </aside>
+  </div>
+  <aside class="note"><b><i>2</i>Lecture et décision côte à côte</b><p>Le texte reste à 64 caractères par ligne pour le confort de lecture ; la colonne de droite reste visible au défilement avec l'essentiel et l'appel à l'action.</p><p>La frise calcule le temps restant : « Encore 75 jours » crée une incitation honnête à venir.</p><span class="el">Elementor : conteneur à deux colonnes, la seconde en position « sticky » (option native). Frise : petit widget HTML lisant les deux dates ACF.</span></aside>
+</section>
+
+<!-- ============ ARTISTES ET PHOTOGRAPHES ============ -->
+<section class="sec" style="padding-top:0" aria-labelledby="names-t">
+  <div class="wrap">
+    <div class="sec-head"><div><p class="eyebrow">Dans l'exposition</p><h2 id="names-t">Devant et derrière l'objectif</h2></div></div>
+    <div class="names">
+      <div>
+        <h3>Les artistes photographiés</h3>
+        <ul><li>Pablo Picasso</li><li>Alexander Calder</li><li>Andy Warhol</li><li>David Hockney</li><li class="more">et de nombreux autres artistes du XX<sup>e</sup>&nbsp;siècle</li></ul>
+      </div>
+      <div>
+        <h3>Les photographes</h3>
+        <ul><li>Henri Cartier-Bresson</li><li>Sabine Weiss</li><li>Lee Miller</li><li>Arnold Newman</li><li class="more">liste complète à fournir par le musée</li></ul>
+      </div>
+    </div>
+  </div>
+  <aside class="note left"><b><i>3</i>La typographie comme exposition</b><p>Sans visuel supplémentaire, les noms composés en grand suffisent à signaler le niveau de la collection. C'est aussi le contenu le plus recherché sur Google : chaque nom est du texte indexable.</p><span class="el">Elementor : deux widgets « Liste » alimentés par un champ répéteur ACF.</span></aside>
+</section>
+
+<!-- ============ GALERIE ============ -->
+<section class="sec" style="padding-top:0" aria-labelledby="gal-t">
+  <div class="wrap">
+    <div class="sec-head"><div><p class="eyebrow">Galerie</p><h2 id="gal-t">Quelques œuvres</h2></div><p class="lead">Cliquez sur une image pour l'agrandir. Légendes et crédits à fournir par le musée.</p></div>
+    <div class="gallery">
+      <figure data-zoom data-caption="Visuel de l'exposition ZOOM — légende et crédit à fournir" data-alt="Visuel de l'exposition ZOOM"><div class="ph" data-src="assets/expo-zoom.jpg" data-label="expo-zoom.jpg"></div><figcaption>Visuel de l'exposition — légende à fournir</figcaption></figure>
+      <figure data-zoom data-caption="Œuvre 2 — légende et crédit à fournir"><div class="ph" data-src="assets/zoom-02.jpg" data-label="zoom-02.jpg, 1200 × 900"></div><figcaption>Artiste, titre, date</figcaption></figure>
+      <figure data-zoom data-caption="Œuvre 3 — légende et crédit à fournir"><div class="ph" data-src="assets/zoom-03.jpg" data-label="zoom-03.jpg, 1200 × 900"></div><figcaption>Artiste, titre, date</figcaption></figure>
+      <figure data-zoom data-caption="Œuvre 4 — légende et crédit à fournir"><div class="ph" data-src="assets/zoom-04.jpg" data-label="zoom-04.jpg, 1200 × 900"></div><figcaption>Artiste, titre, date</figcaption></figure>
+      <figure data-zoom data-caption="Œuvre 5 — légende et crédit à fournir"><div class="ph" data-src="assets/zoom-05.jpg" data-label="zoom-05.jpg, 1200 × 900"></div><figcaption>Artiste, titre, date</figcaption></figure>
+    </div>
+  </div>
+  <aside class="note"><b><i>4</i>Galerie légendée</b><p>Chaque image porte sa légende (artiste, titre, date) et son crédit : obligation de droit d'auteur et repère pour le visiteur. La visionneuse se ferme avec Échap ou un clic.</p><span class="el">Elementor Pro : widget « Galerie » avec visionneuse native ; légende = champ « Légende » de la médiathèque WordPress.</span></aside>
+</section>
+
+<!-- ============ VISITES GUIDÉES ============ -->
+<section class="sec visits" id="visites" aria-labelledby="vis-t">
+  <div class="wrap visits-grid">
+    <div>
+      <p class="eyebrow">Visites guidées en français</p>
+      <h2 id="vis-t" class="visits-big" style="margin-top:18px">Chaque dimanche à 14&nbsp;h&nbsp;30<em>.</em></h2>
+    </div>
+    <div class="visits-side">
+      <p>Découvrez l'exposition avec un médiateur du musée. Visites proposées depuis le 1<sup>er</sup>&nbsp;février 2026, sur réservation.</p>
+      <div class="next-visit"><small>Prochaine visite</small><strong id="nextVisit" data-end="2027-01-10">Le dimanche à 14&nbsp;h&nbsp;30</strong></div>
+      <div style="display:flex;flex-wrap:wrap;gap:12px">
+        <a class="btn btn--red" href="https://billetterie.seetickets.fr/visite-guidee-en-francais-de-l-expo-zoom-portraits-d-artistes-visite-musee-css5-museewurth-pg51-ei1095567.html" target="_blank" rel="noopener">Réserver sur la billetterie <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M5 3h8v8M13 3 3 13"/></svg></a>
+        <a class="btn btn--ghost" href="index.html#publics">Groupes et scolaires</a>
+      </div>
+      <p class="fine">Tarif de la visite guidée : à confirmer par le musée.</p>
+    </div>
+  </div>
+  <aside class="note"><b><i>5</i>Une seule date à retenir</b><p>Le rendez-vous hebdomadaire est énoncé en grand ; la date de la prochaine visite est calculée automatiquement, et s'arrête à la fermeture de l'exposition.</p><span class="el">Lien direct vers l'événement See Tickets existant. Le pictogramme « flèche sortante » annonce le changement de site.</span></aside>
+</section>
+
+<!-- ============ AUTOUR DE L'EXPOSITION ============ -->
+<section class="sec" aria-labelledby="around-t">
+  <div class="wrap">
+    <div class="sec-head"><div><p class="eyebrow">Autour de l'exposition</p><h2 id="around-t">À voir aussi</h2></div><a class="link" href="index.html#programmation">Tout l'agenda</a></div>
+    <div class="around">
+      <a href="index.html#expositions"><div class="ph" data-src="assets/expo-bonnefoi.jpg" data-label="expo-bonnefoi"></div><small>Exposition parallèle</small><h3>« Le monde sur la peau », Camille Bonnefoi</h3><p>Présentée en regard de ZOOM. Entrée libre.</p></a>
+      <a href="index.html#programmation"><div class="ph" data-src="assets/ev-baselitz.jpg" data-label="ev-baselitz"></div><small>Projection · 15 novembre 2026</small><h3>« Moi, Georg Baselitz »</h3><p>Documentaire de Heinz-Peter Schwerfel. Gratuit.</p></a>
+      <a href="index.html#programmation"><div class="ph" data-src="assets/ev-photos.jpg" data-label="ev-photos"></div><small>Atelier famille · 28 octobre 2026</small><h3>Photos monstrueuses</h3><p>Détourner des portraits photographiques. Complet.</p></a>
+    </div>
+  </div>
+  <aside class="note left"><b><i>6</i>Maillage interne</b><p>Chaque fiche renvoie vers les contenus liés : le visiteur reste sur le site, et Google comprend la relation entre exposition et événements.</p><span class="el">Elementor Pro : « Loop Grid » filtrée par une relation ACF « exposition liée ».</span></aside>
+</section>
+
+<!-- ============ INFOS PRATIQUES ============ -->
+<section class="sec" id="infos" style="padding-top:0" aria-labelledby="inf-t">
+  <div class="wrap">
+    <div class="sec-head"><div><p class="eyebrow">Infos pratiques</p><h2 id="inf-t">Préparer votre visite</h2></div></div>
+    <div class="goto">
+      <div><svg viewBox="0 0 26 26" fill="none" stroke="currentColor" stroke-width="1.4"><circle cx="13" cy="13" r="10"/><path d="M13 7v6l4 3"/></svg><h3>Horaires</h3><p>Du mardi au samedi de 10&nbsp;h à 17&nbsp;h, le dimanche de 10&nbsp;h à 18&nbsp;h. Fermé le lundi.</p></div>
+      <div><svg viewBox="0 0 26 26" fill="none" stroke="currentColor" stroke-width="1.4"><rect x="5" y="3" width="16" height="16" rx="3"/><path d="M5 12h16M9 23l2-4M17 23l-2-4"/></svg><h3>Accès</h3><p>À 20&nbsp;minutes de Strasbourg. Gare d'Erstein à 10&nbsp;minutes à pied. Parking gratuit derrière le musée.</p></div>
+      <div><svg viewBox="0 0 26 26" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M6 10h14l-1 12H7z"/><path d="M10 10V7a3 3 0 0 1 6 0v3"/></svg><h3>Sur place</h3><p>Le café des arts, la boutique du musée et un parc de 5&nbsp;hectares.</p></div>
+    </div>
+    <a class="backlink" href="index.html#expositions" style="margin-top:40px"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M14 8H3M7 4 3 8l4 4"/></svg>Toutes les expositions</a>
+  </div>
+</section>
+</main>
+
+<div class="lightbox" id="lightbox" hidden role="dialog" aria-modal="true" aria-label="Visionneuse">
+  <button class="icon-btn lb-close" type="button" aria-label="Fermer la visionneuse"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M5 5l14 14M19 5 5 19"/></svg></button>
+  <figure><img src="" alt=""><figcaption></figcaption></figure>
+</div>
+
+<!-- ============ PIED DE PAGE ============ -->
+<footer class="foot" id="footer">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <h4>Nous trouver</h4>
+        <address>Musée Würth France Erstein<br>Z.I. Ouest, rue Georges-Besse<br>F-67150 Erstein<br><br>Tél. <span class="num">+33 (0)3 88 64 74 84</span><br>mwfe.info@wurth.fr</address>
+        <div class="social">
+          <a href="https://www.facebook.com/museewurth/" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M13.5 21v-7.5h2.5l.4-3h-2.9V8.6c0-.9.3-1.5 1.5-1.5h1.5V4.4a20 20 0 0 0-2.2-.1c-2.2 0-3.7 1.3-3.7 3.8v2.4H8v3h2.6V21z"/></svg></a>
+          <a href="https://www.instagram.com/museewurth/" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r=".8" fill="currentColor"/></svg></a>
+        </div>
+      </div>
+      <div>
+        <h4>Visiter</h4>
+        <ul><li><a href="index.html#visiter">Horaires et accès</a></li><li><a href="index.html#publics">Visites guidées</a></li><li><a href="index.html#publics">Visites scolaires</a></li><li><a href="index.html#visiter">Le café des arts</a></li><li><a href="index.html#visiter">La boutique</a></li></ul>
+      </div>
+      <div>
+        <h4>Le musée</h4>
+        <ul><li><a href="index.html#collection">La Collection Würth</a></li><li><a href="index.html#collection">Reinhold Würth</a></li><li><a href="index.html#publics">Location d'espaces</a></li><li><a href="index.html#footer">Recrutement</a></li><li><a href="index.html#footer">Label Qualité Tourisme</a></li></ul>
+      </div>
+      <div>
+        <h4>Liens utiles</h4>
+        <ul><li><a href="index.html#programmation">Billetterie en ligne</a></li><li><a href="index.html#newsletter">Newsletter</a></li><li><a href="index.html#footer">Espace presse</a></li><li><a href="index.html#publics">Espace enseignants</a></li><li><a href="index.html#footer">Nous écrire</a></li></ul>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>Toutes les activités du Musée Würth France Erstein sont des projets de Würth France S.A.</span>
+      <span class="label-qt">Qualité Tourisme<sup>™</sup> · logo à intégrer</span>
+      <span><a href="index.html#footer">Mentions légales</a> · <a href="index.html#footer">Données personnelles</a> · <a href="index.html#footer">Gestion des cookies</a> · <a href="index.html#footer">Déclaration d'accessibilité</a></span>
+    </div>
+  </div>
+</footer>
+
+<button class="notes-toggle" type="button" id="notesToggle" aria-pressed="false">
+  <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 2h10v12l-5-3-5 3z"/></svg>
+  <span>Notes de conception</span>
+</button>
+<div class="toast" id="toast" role="status"></div>
+
+<script src="main.js"></script>
+</body>
+</html>
