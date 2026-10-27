@@ -1,0 +1,402 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Prototyp Musée Würth (DE)</title>
+<meta name="robots" content="noindex, nofollow">
+<meta name="description" content="Musée Würth France Erstein: Wechselausstellungen moderner und zeitgenössischer Kunst aus der Sammlung Würth, Konzerte im Auditorium, praktische Informationen. Prototyp.">
+<link rel="alternate" hreflang="fr" href="../index.html">
+<link rel="alternate" hreflang="de" href="index.html">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400&display=swap">
+<link rel="stylesheet" href="../style.css">
+</head>
+<body class="page-home" data-base="../">
+
+<p class="proto-flag" lang="fr">Prototype de conception — 6mono pour le Musée Würth France Erstein, octobre 2026. Version allemande de la page d'accueil (test de mise en page).</p>
+
+<!-- ============ KOPFZEILE ============ -->
+<div class="util">
+  <div class="wrap">
+    <ul>
+      <li><a href="#publics">Lehrerbereich</a></li>
+      <li><a href="#footer">Pressebereich</a></li>
+      <li><a href="#newsletter">Newsletter</a></li>
+      <li><a href="#footer">Stellenangebote</a></li>
+      <li><a href="#footer">Schreiben Sie uns</a></li>
+    </ul>
+    <div class="langs" role="group" aria-label="Sprache der Website">
+      <a href="../index.html" lang="fr" hreflang="fr">FR</a>
+      <button type="button" aria-pressed="false" lang="en" data-lang="English version">EN</button>
+      <button type="button" aria-pressed="true" lang="de">DE</button>
+    </div>
+  </div>
+</div>
+
+<header class="hdr" id="top">
+  <div class="wrap">
+    <a class="brand" href="index.html" aria-label="Musée Würth France Erstein, Startseite">
+      <span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span>
+      <span class="brand-txt"><b>MUSÉE WÜRTH</b><span>France · Erstein</span></span>
+    </a>
+    <nav class="nav" aria-label="Hauptnavigation">
+      <a href="#expositions">Ausstellungen</a>
+      <a href="#programmation">Veranstaltungen</a>
+      <a href="#visiter">Besuch</a>
+      <a href="#publics">Gruppen &amp; Schulen</a>
+      <a href="#collection">Über uns</a>
+    </nav>
+    <div class="hdr-tools">
+      <button class="icon-btn" type="button" id="openSearch" aria-label="Suchen">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m15.5 15.5 5 5"/></svg>
+      </button>
+      <a class="btn btn--red" href="#programmation"><span>Tickets</span></a>
+      <button class="icon-btn burger" type="button" id="openMenu" aria-label="Menü öffnen" aria-expanded="false">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 7h18M3 12h18M3 17h18"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<div class="drawer" id="drawer" hidden>
+  <div class="drawer-top">
+    <span class="brand-txt"><b>MUSÉE WÜRTH</b><span>France · Erstein</span></span>
+    <button class="icon-btn" type="button" id="closeMenu" aria-label="Menü schließen"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M5 5l14 14M19 5 5 19"/></svg></button>
+  </div>
+  <nav aria-label="Mobile Navigation">
+    <a href="#expositions">Ausstellungen</a>
+    <a href="#programmation">Veranstaltungen</a>
+    <a href="#visiter">Besuch</a>
+    <a href="#publics">Gruppen und Schulklassen</a>
+    <a href="#collection">Über uns</a>
+    <a href="#publics">Raumvermietung</a>
+  </nav>
+  <a class="btn btn--red" href="#programmation">Tickets</a>
+</div>
+
+<div class="search" id="search" hidden role="dialog" aria-modal="true" aria-label="Suche">
+  <button class="icon-btn close" type="button" id="closeSearch" aria-label="Suche schließen"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M5 5l14 14M19 5 5 19"/></svg></button>
+  <form id="searchForm">
+    <label for="q">Website durchsuchen</label>
+    <input id="q" type="search" placeholder="Eine Ausstellung, ein Künstler, ein Konzert …" autocomplete="off">
+    <div class="sugg" aria-label="Häufige Suchanfragen">
+      <a href="#visiter">Öffnungszeiten</a><a href="#expositions">ZOOM</a><a href="#programmation">Konzerte</a><a href="#publics">Kindergeburtstag im Museum</a><a href="#visiter">Anreise mit der Bahn</a><a href="#publics">Schulführungen</a>
+    </div>
+  </form>
+</div>
+
+<main>
+<!-- ============ HERO ============ -->
+<section class="hero inv" aria-roledescription="Karussell" aria-label="Im Fokus">
+  <div class="slides">
+    <article class="slide on" id="slide-0" aria-roledescription="Folie" aria-label="1 von 3">
+      <div class="ph dark" data-src="assets/hero-zoom.jpg" data-label="ZOOM — Raumansicht, 2400 × 1400 px"></div>
+      <div class="wrap slide-body">
+        <p class="eyebrow stag">Aktuelle Ausstellung</p>
+        <h1 class="stag">ZOOM<em>.</em></h1>
+        <p class="sub stag">Gesichter und Werke aus der Sammlung Würth</p>
+        <p class="meta stag"><span class="free">Eintritt frei</span><span>Führungen auf Französisch, sonntags um 14:30&nbsp;Uhr</span></p>
+        <div class="ctas stag">
+          <a class="btn btn--light" href="../exposition-zoom.html">Zur Ausstellung <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M2 8h11M9 4l4 4-4 4"/></svg></a>
+          <a class="btn btn--ghost" href="../exposition-zoom.html#visites">Führung buchen</a>
+        </div>
+      </div>
+    </article>
+    <article class="slide" id="slide-1" aria-roledescription="Folie" aria-label="2 von 3">
+      <div class="ph dark" data-src="assets/hero-bonnefoi.jpg" data-label="Camille Bonnefoi — Werk, 2400 × 1400 px"></div>
+      <div class="wrap slide-body">
+        <p class="eyebrow stag">Parallelausstellung</p>
+        <h2 class="stag">Die Welt auf der Haut<em>.</em></h2>
+        <p class="sub stag">Camille Bonnefoi</p>
+        <p class="meta stag"><span class="free">Eintritt frei</span><span>Im Musée Würth, als Ergänzung zur Ausstellung ZOOM</span></p>
+        <div class="ctas stag"><a class="btn btn--light" href="#expositions">Zur Ausstellung <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M2 8h11M9 4l4 4-4 4"/></svg></a></div>
+      </div>
+    </article>
+    <article class="slide" id="slide-2" aria-roledescription="Folie" aria-label="3 von 3">
+      <div class="ph dark" data-src="assets/hero-auditorium.jpg" data-label="Auditorium — Konzert, 2400 × 1400 px"></div>
+      <div class="wrap slide-body">
+        <p class="eyebrow stag">Auditorium · Saison 2026/2027</p>
+        <h2 class="stag">Bühnenprogramm<em>.</em></h2>
+        <p class="sub stag">Jeanne Cherhal, Louis Cattelat, Tété, Gauvain Sers, Jessé</p>
+        <p class="meta stag"><span>220&nbsp;Plätze</span><span>Ab 36&nbsp;€</span></p>
+        <div class="ctas stag"><a class="btn btn--red" href="#auditorium">Zur Saison <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M2 8h11M9 4l4 4-4 4"/></svg></a></div>
+      </div>
+    </article>
+  </div>
+  <div class="hero-ctrl">
+    <div class="wrap" role="tablist" aria-label="Folie auswählen">
+      <button class="hero-tab" role="tab" aria-selected="true" aria-controls="slide-0"><i></i><span class="num">01</span><b>ZOOM. Gesichter und Werke</b></button>
+      <button class="hero-tab" role="tab" aria-selected="false" aria-controls="slide-1"><i></i><span class="num">02</span><b>Die Welt auf der Haut</b></button>
+      <button class="hero-tab" role="tab" aria-selected="false" aria-controls="slide-2"><i></i><span class="num">03</span><b>Die Saison im Auditorium</b></button>
+      <button class="hero-pause" type="button" id="heroPause" aria-label="Diashow anhalten">
+        <svg viewBox="0 0 24 24" fill="currentColor"><rect x="6" y="5" width="4" height="14"/><rect x="14" y="5" width="4" height="14"/></svg>
+      </button>
+    </div>
+  </div>
+  <aside class="note" lang="fr"><b><i>1</i>Titres longs</b><p>« Die Welt auf der Haut » compte 21 caractères contre 19 pour « Le monde sur la peau » ; « Bühnenprogramm » est un seul mot de 14 lettres. Le titre géant passe à la ligne entre les mots et, à défaut, se coupe selon les règles allemandes (césure automatique activée pour la langue allemande).</p><span class="el">WPML : chaque diapositive est traduite dans l'éditeur de traduction ; aucun réglage de mise en page propre à l'allemand n'est nécessaire.</span></aside>
+</section>
+
+<!-- ============ HEUTE ============ -->
+<section class="today" aria-label="Informationen für heute">
+  <div class="wrap">
+    <div class="today-item">
+      <small id="todayLabel">Heute</small>
+      <strong><span class="status" id="todayStatus">Geöffnet von 10 bis 17&nbsp;Uhr</span></strong>
+      <p id="todayNext">Montags geschlossen</p>
+    </div>
+    <div class="today-item"><small>Eintritt zur Ausstellung</small><strong>Kostenlos für alle</strong><p>Führungen nach Reservierung</p></div>
+    <div class="today-item"><small>Anreise</small><strong>20&nbsp;Min. von Straßburg</strong><p>Bahnhof Erstein, 10&nbsp;Min. zu Fuß</p></div>
+    <div class="today-item"><small>Rund um das Museum</small><strong>Ein 5&nbsp;Hektar großer Park</strong><p>Kunstcafé und Museumsshop</p></div>
+  </div>
+</section>
+
+<!-- ============ AUSSTELLUNGEN ============ -->
+<section class="sec" id="expositions">
+  <div class="wrap">
+    <div class="sec-head">
+      <div><p class="eyebrow">Ausstellungen</p><h2>Aktuell zu sehen</h2></div>
+      <a class="link" href="#expositions">Alle Ausstellungen</a>
+      <p class="lead">Das Musée Würth bietet das ganze Jahr hindurch Wechselausstellungen, basierend auf der Sammlung Würth, einer der bedeutendsten privaten Kunstsammlungen Europas.</p>
+    </div>
+    <div class="expo-panels">
+      <a class="panel main" href="../exposition-zoom.html">
+        <div class="ph dark" data-src="assets/expo-zoom.jpg" data-label="ZOOM — Hauptwerk, 1600 × 1200 px"></div>
+        <div class="panel-body">
+          <span class="kicker">Wechselausstellung · aktuell</span>
+          <h3>ZOOM. Gesichter und Werke aus der Sammlung Würth</h3>
+          <div class="more">
+            <dl class="cartel">
+              <dt>Bestand</dt><dd>Sammlung Würth</dd>
+              <dt>Dauer</dt><dd>25.&nbsp;Januar 2026 bis 10.&nbsp;Januar 2027</dd>
+              <dt>Eintritt</dt><dd>Frei</dd>
+              <dt>Führungen</dt><dd>Auf Französisch, nach Reservierung</dd>
+            </dl>
+          </div>
+        </div>
+      </a>
+      <a class="panel" href="#expositions">
+        <div class="ph dark" data-src="assets/expo-bonnefoi.jpg" data-label="Camille Bonnefoi, 1200 × 1200 px"></div>
+        <div class="panel-body">
+          <span class="kicker">Parallelausstellung</span>
+          <h3>„Die Welt auf der Haut“</h3>
+          <div class="more">
+            <dl class="cartel">
+              <dt>Künstlerin</dt><dd>Camille Bonnefoi</dd>
+              <dt>Eintritt</dt><dd>Frei</dd>
+            </dl>
+          </div>
+        </div>
+      </a>
+      <a class="panel past" href="#expositions">
+        <div class="panel-body">
+          <span class="kicker">Archiv</span>
+          <p class="big">Vergangene Ausstellungen</p>
+          <span class="link" style="color:#fff;align-self:flex-start">Zum Archiv</span>
+        </div>
+      </a>
+    </div>
+  </div>
+  <aside class="note left" lang="fr" style="top:auto;bottom:16px"><b><i>6</i>Menu raccourci</b><p>« Gruppen und Schulklassen » (24 caractères) faisait passer le menu sur deux lignes. L'intitulé du menu devient « Gruppen &amp; Schulen » ; la forme longue reste dans le menu mobile et dans le titre de la rubrique. Un menu traduit se rédige, il ne se traduit pas mot à mot.</p></aside>
+  <aside class="note" lang="fr"><b><i>2</i>Le panneau étroit</b><p>« Vergangene Ausstellungen » est le cas le plus tendu de la page : deux mots longs dans un panneau d'environ 300&nbsp;px. La césure automatique coupe « Ausstel-lungen » proprement au lieu de faire déborder le texte.</p><p>La fiche ZOOM liée reste en français dans le prototype ; en production, WPML pointe vers sa traduction.</p></aside>
+</section>
+
+<!-- ============ VERANSTALTUNGEN ============ -->
+<section class="sec prog" id="programmation" style="padding-top:0">
+  <div class="wrap">
+    <div class="sec-head">
+      <div><p class="eyebrow">Kulturprogramm</p><h2>Veranstaltungskalender</h2></div>
+      <a class="link" href="#programmation">Alle Termine</a>
+      <p class="lead">Konzerte und Bühnenprogramme im Auditorium, Workshops für Familien und Erwachsene, Filmvorführungen: Filtern Sie nach Ihren Interessen.</p>
+    </div>
+    <div class="filters" role="group" aria-label="Kalender filtern">
+      <button class="chip" type="button" data-f="all" aria-pressed="true">Alle <span class="num" data-count="all"></span></button>
+      <button class="chip" type="button" data-f="scene" aria-pressed="false">Konzerte und Bühnenprogramme <span class="num" data-count="scene"></span></button>
+      <button class="chip" type="button" data-f="atelier" aria-pressed="false">Workshops <span class="num" data-count="atelier"></span></button>
+      <button class="chip" type="button" data-f="famille" aria-pressed="false">Für Familien <span class="num" data-count="famille"></span></button>
+      <button class="chip" type="button" data-f="projection" aria-pressed="false">Filmvorführungen <span class="num" data-count="projection"></span></button>
+    </div>
+    <div id="agenda" aria-live="polite"></div>
+    <div class="prog-foot">
+      <p>Sicherer Online-Ticketverkauf. Ausverkaufte Veranstaltungen bleiben sichtbar, damit Sie die nächsten Termine im Blick behalten.</p>
+      <a class="btn btn--ghost" href="#programmation">Alle Veranstaltungen <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M2 8h11M9 4l4 4-4 4"/></svg></a>
+    </div>
+  </div>
+  <aside class="note" lang="fr"><b><i>3</i>Agenda traduit par le script</b><p>Mois, jours, statuts (« Ausverkauft », « Kostenlos ») et titres d'événements sont fournis en allemand par le script commun, selon la langue de la page. Les titres reprennent ceux de la version allemande actuelle du site.</p><span class="el">En production : The Events Calendar + WPML traduisent ces libellés ; le prototype simule ce comportement.</span></aside>
+</section>
+
+<!-- ============ AUDITORIUM ============ -->
+<section class="sec audi inv" id="auditorium">
+  <div class="wrap" data-rail>
+    <div class="sec-head">
+      <div><p class="eyebrow">Das Auditorium</p><h2>Die Saison auf der Bühne</h2></div>
+      <div class="audi-figure"><b>220</b><span>Plätze im Auditorium des Museums</span></div>
+      <p class="lead">Chanson, Bühnenprogramme, Theater und Tanz: Das Auditorium bietet das ganze Jahr über ein anspruchsvolles Programm, 20&nbsp;Minuten von Straßburg entfernt.</p>
+    </div>
+    <div class="rail" tabindex="0" aria-label="Veranstaltungen der Saison">
+      <a class="show" href="../evenement-jeanne-cherhal.html"><div class="ph dark" data-src="assets/show-cherhal.jpg" data-label="Porträt 900 × 1200"></div><div class="show-date num"><span>Fr., 20. Nov. 2026</span><span>36&nbsp;€</span></div><h3>Jeanne Cherhal</h3><p>Chanson. Die Liedermacherin und Pianistin live.</p></a>
+      <a class="show" href="#programmation"><div class="ph dark" data-src="assets/show-cattelat.jpg" data-label="Porträt 900 × 1200"></div><div class="show-date num"><span>Fr., 18. Dez. 2026</span><span>36&nbsp;€</span></div><h3>Louis Cattelat</h3><p>„Arecibo“ – zwischen kosmischer Poesie und Selbstironie.</p></a>
+      <a class="show" href="#programmation"><div class="ph dark" data-src="assets/show-tete.jpg" data-label="Porträt 900 × 1200"></div><div class="show-date num"><span>Fr., 19. Feb. 2027</span><span>36&nbsp;€</span></div><h3>Tété</h3><p>Die Rückkehr auf die Bühne mit „Vertige du seum“.</p></a>
+      <a class="show" href="#programmation"><div class="ph dark" data-src="assets/show-sers.jpg" data-label="Porträt 900 × 1200"></div><div class="show-date num"><span>Fr., 7. Mai 2027</span><span>36&nbsp;€</span></div><h3>Gauvain Sers</h3><p>Ein viertes Album, zwischen Paris und der Creuse.</p></a>
+      <a class="show" href="#programmation"><div class="ph dark" data-src="assets/show-jesse.jpg" data-label="Porträt 900 × 1200"></div><div class="show-date num"><span>Fr., 28. Mai 2027</span><span class="full">Ausverkauft</span></div><h3>Jessé</h3><p>Bühnenprogramm.</p></a>
+    </div>
+    <div class="prog-foot">
+      <div class="rail-ctrl">
+        <button type="button" data-rail-prev aria-label="Vorherige Veranstaltungen"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M15 5l-7 7 7 7"/></svg></button>
+        <button type="button" data-rail-next aria-label="Nächste Veranstaltungen"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M9 5l7 7-7 7"/></svg></button>
+      </div>
+      <a class="btn btn--red" href="#programmation">Tickets buchen <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M2 8h11M9 4l4 4-4 4"/></svg></a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ BESUCH ============ -->
+<section class="sec" id="visiter">
+  <div class="wrap">
+    <div class="sec-head">
+      <div><p class="eyebrow">Ihren Besuch planen</p><h2>Das Museum besuchen</h2></div>
+      <a class="link" href="#visiter">Alle praktischen Informationen</a>
+    </div>
+    <div class="visit-grid">
+      <div class="visit-col">
+        <h3>Öffnungszeiten und Preise</h3>
+        <table class="hours" aria-label="Öffnungszeiten">
+          <tbody id="hoursBody">
+            <tr data-d="1" class="off"><th scope="row">Montag</th><td>Geschlossen</td></tr>
+            <tr data-d="2"><th scope="row">Dienstag</th><td>10–17 Uhr</td></tr>
+            <tr data-d="3"><th scope="row">Mittwoch</th><td>10–17 Uhr</td></tr>
+            <tr data-d="4"><th scope="row">Donnerstag</th><td>10–17 Uhr</td></tr>
+            <tr data-d="5"><th scope="row">Freitag</th><td>10–17 Uhr</td></tr>
+            <tr data-d="6"><th scope="row">Samstag</th><td>10–17 Uhr</td></tr>
+            <tr data-d="0"><th scope="row">Sonntag</th><td>10–18 Uhr</td></tr>
+          </tbody>
+        </table>
+        <div class="price-box"><b>0&nbsp;€</b><span>Der Eintritt zur Ausstellung ist für alle kostenlos.</span></div>
+        <p class="fine">Feiertage und außerordentliche Schließungen: vom Museum zu bestätigen.</p>
+      </div>
+      <div class="visit-col">
+        <h3>Anreise</h3>
+        <ul class="access">
+          <li><svg viewBox="0 0 26 26" fill="none" stroke="currentColor" stroke-width="1.4"><rect x="5" y="3" width="16" height="16" rx="3"/><path d="M5 12h16M9 23l2-4M17 23l-2-4"/><circle cx="9" cy="15.5" r="1"/><circle cx="17" cy="15.5" r="1"/></svg><div><strong>Mit der Bahn</strong>Bahnhof Erstein, dann 10&nbsp;Minuten zu Fuß.</div></li>
+          <li><svg viewBox="0 0 26 26" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M3 16l2-6a3 3 0 0 1 3-2h10a3 3 0 0 1 3 2l2 6v4H3z"/><circle cx="8" cy="20" r="2"/><circle cx="18" cy="20" r="2"/></svg><div><strong>Mit dem Auto</strong>20&nbsp;Minuten von Straßburg. Kostenlose Parkplätze hinter dem Museum.</div></li>
+          <li><svg viewBox="0 0 26 26" fill="none" stroke="currentColor" stroke-width="1.4"><circle cx="13" cy="5" r="2"/><path d="M13 8v7M8 11h10M10 23l3-8 3 8"/></svg><div><strong>Barrierefreiheit</strong>Informationen für Menschen mit eingeschränkter Mobilität (Inhalt folgt).</div></li>
+        </ul>
+        <address class="address">Musée Würth France Erstein<br>Z.I. Ouest, Rue Georges Besse<br>F-67150 Erstein, Frankreich</address>
+        <a class="link" href="#visiter" style="align-self:flex-start">Route planen</a>
+      </div>
+      <div class="visit-col">
+        <h3>Vor Ort</h3>
+        <div class="onsite">
+          <a href="#visiter"><div class="ph" data-src="assets/cafe.jpg" data-label="Café"></div><div><strong>Das Kunstcafé</strong><span>Eine Pause vor oder nach dem Besuch.</span></div></a>
+          <a href="#visiter"><div class="ph" data-src="assets/boutique.jpg" data-label="Shop"></div><div><strong>Der Museumsshop</strong><span>Kataloge, Kunstbücher und Geschenkideen.</span></div></a>
+          <a href="#visiter"><div class="ph" data-src="assets/parc.jpg" data-label="Park"></div><div><strong>Der Park</strong><span>Fünf Hektar für den Familienausflug.</span></div></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <aside class="note" lang="fr"><b><i>4</i>Conventions allemandes</b><p>Heures au format allemand (« 10–17 Uhr », « 14:30 Uhr »), dates « 25. Januar 2026 », guillemets „…“, milliers avec un point (20.000). L'adresse ajoute « Frankreich » pour un visiteur venu d'Allemagne ou de Suisse.</p></aside>
+</section>
+
+<!-- ============ ZIELGRUPPEN ============ -->
+<section class="sec publics" id="publics">
+  <div class="wrap">
+    <div class="sec-head">
+      <div><p class="eyebrow">Für alle</p><h2>Ein Besuch nach Maß</h2></div>
+      <p class="lead">Familien, Lehrkräfte, Gruppen und Unternehmen finden hier ihre Angebote auf einen Blick.</p>
+    </div>
+    <div class="pub-grid">
+      <a class="pub" href="#publics"><div class="ph" data-src="assets/pub-familles.jpg" data-label="Kinderworkshop"></div><div class="pub-body"><small>Familien</small><h3>Mit der Familie</h3><p>Kreative Workshops in den Ferien und ein Park zum Durchatmen.</p><ul><li>Kindergeburtstag im Museum</li><li>Sommer im Museum</li></ul></div></a>
+      <a class="pub" href="#publics"><div class="ph" data-src="assets/pub-scolaires.jpg" data-label="Schulklasse"></div><div class="pub-body"><small>Lehrkräfte</small><h3>Schulklassen</h3><p>Führungen für jede Klassenstufe und Material zur Vorbereitung.</p><ul><li>Schulführungen</li><li>Lehrerbereich</li></ul></div></a>
+      <a class="pub" href="#publics"><div class="ph" data-src="assets/pub-groupes.jpg" data-label="Führung"></div><div class="pub-body"><small>Gruppen</small><h3>Führungen</h3><p>Die Ausstellung mit einer Kunstvermittlerin oder einem Kunstvermittler entdecken, auf Reservierung.</p><ul><li>Führung buchen</li></ul></div></a>
+      <a class="pub" href="#publics"><div class="ph" data-src="assets/pub-entreprises.jpg" data-label="Auditorium, Empfang"></div><div class="pub-body"><small>Unternehmen</small><h3>Raumvermietung</h3><p>Auditorium, Säle und Park für Seminare und Empfänge.</p><ul><li>Das Mietangebot</li><li>Teambuilding</li></ul></div></a>
+    </div>
+  </div>
+  <aside class="note" lang="fr"><b><i>5</i>Cartes à hauteur variable</b><p>Les textes allemands sont 20 à 35&nbsp;% plus longs. Les quatre cartes gardent pourtant la même hauteur : c'est la plus longue qui la fixe, les autres s'alignent.</p></aside>
+</section>
+
+<!-- ============ SAMMLUNG ============ -->
+<section class="sec" id="collection">
+  <div class="wrap coll-grid">
+    <div class="ph" data-src="assets/collection.jpg" data-label="Werk der Sammlung Würth, 1200 × 1500 px"></div>
+    <div class="coll-text">
+      <p class="eyebrow">Museum und Sammlung</p>
+      <h2>Eine Sammlung aus Leidenschaft</h2>
+      <p>Die Sammlung Würth entstand aus der Leidenschaft des Unternehmers Reinhold Würth für die Kunst. Sie umfasst alle Kunstströmungen vom Mittelalter bis heute und vereint Werke herausragender Künstlerinnen und Künstler. Das Musée Würth in Erstein zeigt sie in wechselnden Ausstellungen.</p>
+      <div class="figures">
+        <div><b>20.000</b><span>Werke in der Sammlung Würth</span></div>
+        <div><b>220</b><span>Plätze im Auditorium</span></div>
+        <div><b>5&nbsp;ha</b><span>Park rund um das Museum</span></div>
+      </div>
+      <div class="coll-links">
+        <a class="link" href="#collection">Musée Würth</a>
+        <a class="link" href="#collection">Sammlung Würth</a>
+        <a class="link" href="#collection">Reinhold Würth</a>
+        <a class="link" href="#collection">Das Museum Würth mag</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ NEWSLETTER ============ -->
+<section class="news" id="newsletter" aria-label="Newsletter">
+  <div class="wrap">
+    <div>
+      <h2>Bleiben Sie über das Programm des Museums informiert</h2>
+      <p>Ausstellungen, Konzerte, Workshops: der Newsletter des Musée Würth, einmal im Monat.</p>
+    </div>
+    <div>
+      <form id="newsForm" novalidate>
+        <label class="sr" for="email">E-Mail-Adresse</label>
+        <input id="email" type="email" placeholder="Ihre E-Mail-Adresse" autocomplete="email" required>
+        <button type="submit">Anmelden <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M2 8h11M9 4l4 4-4 4"/></svg></button>
+      </form>
+      <p class="ok" id="newsMsg" aria-live="polite"></p>
+      <p class="consent">Abmeldung jederzeit mit einem Klick. Ihre Daten werden nicht weitergegeben.</p>
+    </div>
+  </div>
+</section>
+</main>
+
+<!-- ============ FUSSZEILE ============ -->
+<footer class="foot" id="footer">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <h4>So finden Sie uns</h4>
+        <address>Musée Würth France Erstein<br>Z.I. Ouest, Rue Georges Besse<br>F-67150 Erstein, Frankreich<br><br>Tel. <span class="num">+33 (0)3 88 64 74 84</span><br>mwfe.info@wurth.fr</address>
+        <div class="social">
+          <a href="https://www.facebook.com/museewurth/" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M13.5 21v-7.5h2.5l.4-3h-2.9V8.6c0-.9.3-1.5 1.5-1.5h1.5V4.4a20 20 0 0 0-2.2-.1c-2.2 0-3.7 1.3-3.7 3.8v2.4H8v3h2.6V21z"/></svg></a>
+          <a href="https://www.instagram.com/museewurth/" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r=".8" fill="currentColor"/></svg></a>
+        </div>
+      </div>
+      <div>
+        <h4>Besuch</h4>
+        <ul><li><a href="#visiter">Öffnungszeiten und Anreise</a></li><li><a href="#publics">Führungen</a></li><li><a href="#publics">Schulführungen</a></li><li><a href="#visiter">Kunstcafé</a></li><li><a href="#visiter">Museumsshop</a></li></ul>
+      </div>
+      <div>
+        <h4>Über uns</h4>
+        <ul><li><a href="#collection">Sammlung Würth</a></li><li><a href="#collection">Reinhold Würth</a></li><li><a href="#publics">Raumvermietung</a></li><li><a href="#footer">Stellenangebote</a></li><li><a href="#footer">Label Qualité Tourisme</a></li></ul>
+      </div>
+      <div>
+        <h4>Nützliche Links</h4>
+        <ul><li><a href="#programmation">Online-Ticketing</a></li><li><a href="#newsletter">Newsletter</a></li><li><a href="#footer">Pressebereich</a></li><li><a href="#publics">Lehrerbereich</a></li><li><a href="#footer">Schreiben Sie uns</a></li></ul>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>Alle Aktivitäten des Musée Würth France Erstein sind Projekte von Würth France S.A.</span>
+      <span class="label-qt">Qualité Tourisme<sup>™</sup> · Logo folgt</span>
+      <span><a href="#footer">Impressum</a> · <a href="#footer">Datenschutz</a> · <a href="#footer">Cookie-Einstellungen</a> · <a href="#footer">Erklärung zur Barrierefreiheit</a></span>
+    </div>
+  </div>
+</footer>
+
+<button class="notes-toggle" type="button" id="notesToggle" aria-pressed="false" lang="fr">
+  <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 2h10v12l-5-3-5 3z"/></svg>
+  <span>Notes de conception</span>
+</button>
+<div class="toast" id="toast" role="status"></div>
+
+<script src="../main.js"></script>
+</body>
+</html>
